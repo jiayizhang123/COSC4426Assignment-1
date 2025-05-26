@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 2642413250041613534}
   - component: {fileID: 642610265627397625}
   - component: {fileID: 1929762303404209990}
+  - component: {fileID: 7964524681331876754}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -308,3 +309,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitSound: {fileID: 3262766621027510285}
+--- !u!114 &7964524681331876754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6644028394179268085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acfb23c06d5837445a83d4948deb0bc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pitchForce: 5

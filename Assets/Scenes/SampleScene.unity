@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 179085516}
   - component: {fileID: 179085515}
   - component: {fileID: 179085514}
+  - component: {fileID: 179085517}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -187,6 +188,20 @@ Transform:
   - {fileID: 1153984307}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &179085517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179085513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5010ca1d997fe4e92c3a6eba4c6097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  rotateSpeed: 2
 --- !u!1 &426775963
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,7 +2083,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   from: {fileID: 1736806504}
-  ballTarget: {fileID: 0}
   ballPrefab: {fileID: 6644028394179268085, guid: 9523f9ae7b53f914c97be9097d5e6596, type: 3}
   velocity: {x: 0, y: 5, z: 12}
 --- !u!4 &1492570849
